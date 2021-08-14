@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(243, 177, 243);
+}
+em {
+  color: green;
+}
+figcaption {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+h2 + P {
+  color: #4f8bc9;
+}
+.black-border {
+  border: 2px solid black;
+}
+.different-font {
+  font-family: 'Courier New', monospace;
+}
+#nav {
+  padding: 0;
+  list-style: none;
+}
+#nav li {
+  display: inline;
+}
+#nav li a {
+  margin: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
