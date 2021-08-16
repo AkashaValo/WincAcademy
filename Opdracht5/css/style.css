@@ -41,7 +41,12 @@ h2 + P {
 }
 #nav li a {
   margin: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+#nav li a:hover {
+  color: red;
   text-decoration: underline;
   font-weight: bold;
-  color: black;
 }
