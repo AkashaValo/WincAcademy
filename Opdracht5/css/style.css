@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(243, 177, 243);
+}
+header {
+  border: 2px solid #0011ff;
+  margin: 5px 0px 10px 0;
+  padding: 0px 0px 5px 5px;
+}
+main {
+  border: 2px solid #ea00ff;
+  margin: 5px 0px 10px 0;
+  padding: 0px 15px;
+}
+em {
+  color: green;
+}
+figcaption {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+}
+h2 + P {
+  color: #4f8bc9;
+}
+.black-border {
+  border: 2px solid black;
+}
+.center {
+  margin: 0 auto;
+  width: 50%;
+}
+.different-font {
+  font-family: "Courier New", monospace;
+}
+#nav {
+  padding: 0;
+  list-style: none;
+}
+#nav li {
+  display: inline;
+}
+#nav li a {
+  margin: 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+}
