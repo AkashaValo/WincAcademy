@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title>Winc Web Developer Course</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="opdrachten.html">Opdrachten</a></li>
+                <li><a href="contact.html">Contact</a></li>             
+            </ul>
+        </nav>
+        <h1>Winc Web Developer Course</h1>
+    </header>
+    <main>
+        <h3 class="black-border">Contact</h3>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:<br><input type="text" name="name"/></label>   
+            </p>
+            <p>
+                <label>Email:<br><input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer:<br><input type="tel" name="phone"/></label>
+            </p>  
+            <p>
+                <label>Leeftijd:<br><input type="number" name="age" min="18"/></label>
+            </p>   
+            <p>
+                <label>Geboortedatum:<br><input type="date" name="birth"/></label>
+            </p>        
+            <p>
+                <label>Gender:<br></label>
+                <input type="radio" name="gender" value="Man"><label for="html">Man</label>
+                <input type="radio" name="gender" value="Vrouw"><label for="html">Vrouw</label>
+           </p>        
+            <p>
+                <label>Favoriete cuisine:<br></label>
+                <input type="checkbox" name="cuisine" value="Frans"/><label for="html">Frans</label>
+                <input type="checkbox" name="cuisine" value="Italiaans"/><label for="html">Italiaans</label>
+                <input type="checkbox" name="cuisine" value="Spaans"/><label for="html">Spaans</label>  
+                <input type="checkbox" name="cuisine" value="Arabisch"/><label for="html">Arabisch</label>                                            
+            </p> 
+            <p>
+                <label>Favoriete kleur:<br><input type="color" name="color"/></label>
+            </p> 
+            <p>
+                <label>Biografie:<br><textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <label>Upload je laatste recept:<br><input type="file" name="recept"/></label>
+            </p> 
+            <p>
+                <label>Url van je website:<br><input type="url" name="url"/></label>
+            </p> 
+            <p>
+                <button type="submit">Send</button>
+                <input type="reset">
+            </p>
+            </form>
+        <hr>
+    </main>
+    <footer>
+        <p>Created by Leandra &copy; 2021</p>
+    </footer>
+</body>
+
+</html>
