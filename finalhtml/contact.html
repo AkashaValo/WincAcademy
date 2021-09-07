@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title>AkashaValo Coaching</title>
+        <script src="https://kit.fontawesome.com/e2e53a0301.js" crossorigin="anonymous"></script>       
+            <link rel="stylesheet" type="text/css" href="css/style.css">    
+    </head>
+    <body>
+        <header>
+            <div class="contact-beam">     
+                <div class = "logo"><a href="index.html"><img class="logo-img" src="img/AV Logo.png" ></a></div>
+                <nav>
+                    <ul id="nav">
+                        <li><a href="training.html">Training</a></li>                        
+                        <li><a href="nutrition.html">Nutrition</a></li>                        
+                        <li><a href="Coaching.html">Coaching</a></li>                          
+                        <li><a href="contact.html">Contact</a></li>                        
+                    </ul>                 
+                    <div class="dropdown">
+                    <button class="dropbtn">                        
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="training.html">Training</a>
+                        <a href="nutrition.html">Nutrition</a>
+                        <a href="coaching.html">Coaching</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    </div>
+                </nav>    
+            </div>          
+        </header>
+        <main class="main">
+            <div><h1>NEEM CONTACT OP</h1></div>
+            <form name="contact" method="POST" data-netlify="true">
+                <div>
+                    <label>Naam:</label><br><input class="input" type="text" name="name"/>   
+                </div>
+                <div>
+                    <label>Email:</label><br><input class="input" type="email" name="email" />
+                </div>
+                <div>
+                    <label>Bericht:</label><br><textarea name="message"></textarea>
+                </div>
+                <div>
+                    <button class="contact-button" type="submit">Send</button>
+                </div>
+            </form>
+            <div class="other-contact">
+                <h1>Andere manieren</h1>
+                <span class="contact-icon"> 
+                    <i class="fas fa-phone fa-8x" id="phone"></i>
+                    <h3>BELLEN</h3>  
+                </span>
+                <span class="contact-icon">                                        
+                    <i class="fab fa-facebook fa-8x" id="facebook"></i>
+                    <h3>WHATSAPP</h3>  
+                </span>                    
+                <span class="contact-icon">                     
+                    <i class="fab fa-instagram fa-8x" id="insta"></i>
+                    <h3>FACEBOOK</h3>                      
+                </span>  
+            </div>                        
+        </main>
+        <footer>
+            <span>Copyright &copy; 2021. All Rights Reserved</span>
+            <span class="brand">AkashaValo Coaching</span>
+
+       </footer>        
+    </body>
+</html>

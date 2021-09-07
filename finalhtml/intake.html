@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- hier zet je de code in de head tags -->
+        <title>AkashaValo Coaching</title>
+        <script src="https://kit.fontawesome.com/e2e53a0301.js" crossorigin="anonymous"></script>       
+            <link rel="stylesheet" type="text/css" href="css/style.css">    
+    </head>
+    <body>
+        <header>
+            <div class="contact-beam">     
+                <div class = "logo"><a href="index.html"><img class="logo-img" src="img/AV Logo.png" ></a></div>
+                <nav>
+                    <ul id="nav">
+                        <li><a href="training.html">Training</a></li>                        
+                        <li><a href="nutrition.html">Nutrition</a></li>                        
+                        <li><a href="Coaching.html">Coaching</a></li>                          
+                        <li><a href="contact.html">Contact</a></li>                        
+                    </ul>                 
+                    <div class="dropdown">
+                    <button class="dropbtn">                        
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                        <div class="hamburger"></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="training.html">Training</a>
+                        <a href="nutrition.html">Nutrition</a>
+                        <a href="coaching.html">Coaching</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    </div>
+                </nav>    
+            </div>          
+        </header>
+        <main class="main">
+            <h1>IF I CAN DO IT, YOU CAN TOO!</h1> 
+            <form name="contact" method="POST" data-netlify="true">
+                <div>
+                    <label>Naam:</label><br><input class="input" type="text" name="name"/>   
+                </div>
+                <div>
+                    <label>Email:</label><br><input class="input"  type="email" name="email" />
+                </div>
+                <div>
+                    <label>Telefoonnummer:</label><br><input  class="input"  type="tel" name="phone"/>
+                </div>  
+                <div>
+                    <label>Geboortedatum:</label><br><input class="input"  type="date" name="dateofbirth"/>
+                </div>        
+                <div class="div-intake">
+                    <label>Geslacht:<br></label>
+                    <input type="radio" name="gender" value="Man"><label for="html">Man</label>
+                    <input type="radio" name="gender" value="Vrouw"><label for="html">Vrouw</label>
+               </div>        
+                <div class="div-intake">
+                    <label>Doel:<br></label>
+                    <input type="radio" name="Doel" value="Afvallen"/><label for="html">Afvallen</label>
+                    <input type="radio" name="Doel" value="Aankomen"/><label for="html">Spier Opbouw</label>                                        
+                    <input type="radio" name="Doel" value="Anders"/><label for="html">Anders</label>                    
+                </div> 
+                <div class="div-intake">
+                    <label>Wat zijn je doelen:</label><br><textarea name="message"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Send</button>
+                </div>
+                </form>       
+        </main>
+        <footer>
+            <span>Copyright &copy; 2021. All Rights Reserved</span><span class="brand">AkashaValo Coaching</span> 
+       </footer>        
+    </body>
+</html>
