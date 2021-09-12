@@ -1,6 +1,8 @@
 const age = 26;
+const isFemale = true;
+const driveStatus = "bob";
 const firstName = "Sarah";
-const totalAmount = 26;
+const totalAmount = 100;
 
 if (age >= 18)
 {
@@ -24,7 +26,7 @@ if (age >= 18)
         console.log("Unfortunately your name is not Sarah or Bram");
     }
 
-    if (totalAmount > 100)
+    if (totalAmount >= 100)
     {
         console.log("Your amount exceeds 100 euro, you will get free bottle of champagne");   
     }
@@ -44,4 +46,22 @@ if (age >= 18)
 else
 {
     console.log("You are too young. Please stay outside");
+}
+
+if (isFemale)
+{
+    console.log("Person is female");
+}
+else
+{
+    console.log("Person is not female");
+}
+
+if (driveStatus == "bob")
+{
+    console.log("Person is sober and may drive");
+}
+else
+{
+    console.log("Person is not sober and may not drive");
 }
