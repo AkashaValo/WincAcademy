@@ -1,0 +1,70 @@
+.color-name {
+  display: block;
+  font-size: 100px;
+  text-align: center;
+}
+
+.radio-group {
+  text-align: center;
+}
+
+.selected-color {
+  text-align: center;
+}
+
+.hamburger {
+  width: 40px;
+}
+
+.nav-main {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+  width: 40px;
+  transition: width 1.5s;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  transition: all 1s ease-in-out;
+  height: 0;
+}
+
+.dropdown-content li {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+.white {
+  background-color: white;
+}
+
+.red {
+  background-color: Red;
+}
+
+.yellow {
+  background-color: Yellow;
+}
+
+.blue {
+  background-color: Blue;
+}
+
+.purple {
+  background-color: Purple;
+}
+
+.green {
+  background-color: Green;
+}

@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color toggle</title>
+    <script defer src="script/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="nav-main">
+        <div class="dropdown">
+            <div class="dropbtn">                        
+                <div><img class="hamburger" src="img/hamburger-menu.png"/></div>
+            </div>
+            <ul class="dropdown-content">
+                <li id="home" class="white">Home</li>
+                <li id="red" class="red">Red</li>
+                <li id="yellow" class="yellow">Yellow</li>
+                <li id="blue" class="blue">Blue</li>
+                <li id="purple" class="purple">Purple</li>
+                <li id="green" class="green">Green</li>
+            </ul>
+        </div> 
+    </nav>
+    <main>
+        <p class="color-name">Pick a Color</p>
+        <p class="selected-color">Selected Color:</p>
+        <div class="radio-group">
+          <input type="radio" id="radio-white" name="selectedColor" value="white" checked><label for="white">Home / White - 1</label>
+          <input type="radio" id="radio-red" name="selectedColor" value="red"><label for="Red">Red - 2</label>
+          <input type="radio" id="radio-yellow" name="selectedColor" value="yellow"><label for="Yellow">Yellow - 3</label>
+          <input type="radio" id="radio-blue" name="selectedColor" value="blue"><label for="Blue">Blue - 4</label>
+          <input type="radio" id="radio-purple" name="selectedColor" value="purple"><label for="Purple">Purple - 5</label>
+          <input type="radio" id="radio-green" name="selectedColor" value="green"><label for="Green">Green - 6</label>
+        </div>
+    </main>
+</body>
+</html>
